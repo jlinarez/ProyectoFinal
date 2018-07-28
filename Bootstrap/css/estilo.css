@@ -1,0 +1,115 @@
+body{
+  background: black;
+}
+
+.contenido{
+  color:white;
+  margin-top: 20px;
+}
+
+.img-thumbnail{
+  width: 100%;
+}
+
+.contenido2{
+  background: red;
+  min-height: 1024px;
+}
+
+.bio-contenedor{
+  padding: 10px;
+  margin: 0px;
+}
+
+.jumbotron{
+  background: linear-gradient(blue, white, red);
+  margin: 0px;
+  border-radius: 0px !important;
+
+}
+
+.logo{
+  width: 200px;
+  height: 200px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.social{
+  width: 50px;
+  height: 50px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar{
+  margin: 0px;
+  padding: 10px;
+  background: blue;
+  border-radius: 0px !important;
+
+}
+ .nav li a{
+    color: white !important;
+}
+
+.nav li a:hover{
+  background: white !important;
+   color: blue !important;
+}
+
+.biografia{
+  text-align: justify;
+}
+
+#txtComentario{
+  max-width: 750px;
+  margin:auto;
+}
+
+.person{
+  width: 75%;
+  margin-left: 20px;
+  margin: auto;
+  padding: 0px;
+}
+
+.lstBuscar{
+  margin-top: 10px;
+}
+
+.buscar>a:hover{
+  background: red;
+  color: white;
+}
+
+.comment{
+  margin: 0px;
+}
+
+@media(max-width:768px){
+  .cntBuscar{
+    display: none;
+  }
+
+  .logo{
+    margin: auto;
+  }
+
+  .social-logos{
+    text-align: center;
+  }
+
+  li{
+    text-align: center;
+  }
+
+  [class*="person-"]{
+    width: 20%;
+  }
+
+  [class*="comment"]{
+    width: 80%;
+  }
+
+}
