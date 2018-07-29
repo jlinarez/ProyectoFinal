@@ -1,0 +1,81 @@
+/*
+div{
+  border: 1px dashed red;
+}
+*/
+body{
+  background-image: url("../img/body-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+
+.main-title{
+  margin-top: 10px;
+  background: none;
+  border: none;
+  border-right: 1px solid gray;
+}
+
+.contenido{
+  background: rgba(85, 185, 150, 0.26);
+}
+
+.cabecera{
+  border-bottom: 2px solid gray;
+  background: rgba(85, 185, 150, 0.26);
+}
+
+.titulo{
+  color: blue;
+  font-weight: bold;
+  text-shadow: 5px 8px 4px black;
+}
+
+.slogan{
+  text-align: right;
+  color:red;
+  font-style: italic;
+  text-shadow: 2px 2px 1px black;
+}
+
+.tools{
+  color: white;
+  margin: 10px;
+  background: rgba(216, 70, 44, 0.8);
+}
+
+.articulo{
+  color: white;
+  margin: 0px;
+  background: rgba(44, 75, 216, 0.8);
+}
+
+.tools ul li a{
+  color: white;
+  border: 1px solid white;
+}
+
+.tools ul li a:hover{
+  color: red;
+  background: white;
+}
+
+h6{
+  margin-top: 30px;
+}
+
+.favoritos{
+  text-align: center;
+  margin-top: 5px;
+}
+
+.fav-img{
+  width: 30%;
+  height: 90px;
+  margin: 0px 2px;
+}
+
+.icon-person{
+  width: 75%;
+}
