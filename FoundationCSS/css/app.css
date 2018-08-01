@@ -1,8 +1,4 @@
-/*
-div{
-  border: 1px dashed red;
-}
-*/
+
 body{
   background-image: url("../img/body-bg.jpg");
   background-repeat: no-repeat;
@@ -69,8 +65,13 @@ body{
  text-decoration: underline;
 }
 
+h2{
+  font-size: 2.0rem;
+}
+
 h6{
   margin-top: 30px;
+  font-size: 1.0rem;
 }
 
 .favoritos{
