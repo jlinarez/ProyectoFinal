@@ -7,7 +7,7 @@ body{
   background-image: url("../img/body-bg.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
-
+  background-attachment: fixed;
 }
 
 .main-title{
@@ -51,14 +51,22 @@ body{
   background: rgba(44, 75, 216, 0.8);
 }
 
-.tools ul li a{
+.menu-nav li a{
   color: white;
   border: 1px solid white;
 }
 
-.tools ul li a:hover{
+.menu-nav li a:hover{
   color: red;
   background: white;
+}
+
+ .menu-hist li a{
+  color: white
+}
+
+.menu-hist li a:hover{
+ text-decoration: underline;
 }
 
 h6{
@@ -76,6 +84,26 @@ h6{
   margin: 0px 2px;
 }
 
-.icon-person{
-  width: 75%;
+.articulo{
+  margin-top: 10px;
+}
+
+.icon-user{
+  width: 45px;
+  margin: auto;
+  padding: auto;
+}
+
+.comentario{
+  width: 100%;
+  margin-top: 10px;
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.comentario .texto{
+  margin: 0px;
+  padding: 0px;
+  font-size: 0.8em;
 }

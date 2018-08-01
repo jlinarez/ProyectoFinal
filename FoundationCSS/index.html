@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gastronomia RD</title>
+    <link rel="stylesheet" href="css/foundation-icons/foundation-icons.css" />
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/foundation.min.css">
     <link rel="stylesheet" href="css/app.css">
@@ -11,7 +12,7 @@
   <body>
     <div class="container">
       <div class="row cabecera">
-        <div class="column large-5">
+        <div class="column large-5 medium-5 hide-for-small-only">
          <div class="callout main-title">
            <h2 class="titulo">Gastronomia RD</h2>
            <p class="slogan">Sabor Dominicano...</p>
@@ -19,45 +20,138 @@
        </div>
       </div>
       <div class="row contenido">
-        <div class="column large-5">
+        <div class="column large-5 medium-5  hide-for-small-only">
           <div class="callout tools">
-            <ul class="vertical menu">
+            <div class="input-group">
+              <input class="input-group-field" placeholder="Buscar">
+              <div class="input-group-button">
+                <button class="button" type="button">
+                  <span aria-hidden="true"><i class="fi-magnifying-glass"></i></span>
+                </button>
+              </div>
+            </div>
+            <ul class="vertical menu menu-nav">
               <li><a href="#">Inicio</a></li>
               <li><a href="#">Nuevas recetas</a></li>
               <li><a href="#">Top 10</a></li>
             </ul>
             <h6>Favoritos:</h6>
             <div class="row favoritos">
-              <a href="#"><img class="thumbnail fav-img" src="img/caldo.jpg" alt=""></a>
-              <a href="#"><img class="thumbnail fav-img" src="img/pescado.jpg" alt=""></a>
-              <a href="#"><img class="thumbnail fav-img" src="img/pastas.jpg" alt=""></a>
+              <a href="#"><img class="thumbnail fav-img" src="img/pastel.jpg" alt=""></a>
+              <a href="#"><img class="thumbnail fav-img" src="img/arepa.jpg" alt=""></a>
+              <a href="#"><img class="thumbnail fav-img" src="img/mofongo.jpg" alt=""></a>
             </div>
             <div class="row favoritos">
-              <a href="#"><img class="thumbnail fav-img" src="img/filete.jpg" alt=""></a>
-              <a href="#"><img class="thumbnail fav-img" src="img/hamb.jpg" alt=""></a>
-              <a href="#"><img class="thumbnail fav-img" src="img/veg-grill.jpg" alt=""></a>
+              <a href="#"><img class="thumbnail fav-img" src="img/chenchen.jpg" alt=""></a>
+              <a href="#"><img class="thumbnail fav-img" src="img/domplin.jpg" alt=""></a>
+              <a href="#"><img class="thumbnail fav-img" src="img/pescado.jpg" alt=""></a>
             </div>
+            <h6>Historial:</h6>
+            <ul class="vertical menu menu-hist">
+              <li><a href="#">Mofongo Mocano</a></li>
+              <li><a href="#">Pescado con Coco de Samaná</a>
+              <li><a href="#">Pasteles en Hoja de S.P. de Macorix</a>
+              <li><a href="#">Chenchen de San Juan</a>
+            </ul>
           </div>
         </div>
-        <div class="column large-7">
+        <div class="column large-7 medium-7 small-12">
           <div class="callout articulo">
-            <h2>Cortes de Primera</h2>
+            <h2>Mofongo Mocano</h2>
             <p>29/07/2019</p>
-            <img class="thumbnail" src="img/filete.jpg" alt="">
-            <p>Los mejores cortes al mejor precio, totalmente organicos y con la frescura que usted se merece.</p>
+            <img class="thumbnail" src="img/mofongo.jpg" alt="">
+            <p>Sabroso mofongo a base del famoso platano power con trozos de jugoso chicharron de cerdo, cubierto con queso rallado.</p>
             <div class="row">
-              <div class="column large-5">
-                <img src="img/person.png" alt="">
-              </div>
-              <div class="column large-10">
+              <div class="column large-12">
                 <label>
-                  <textarea placeholder="Comentarios"></textarea>
+                  <textarea placeholder="Dejanos tu comentario..."></textarea>
+                  <button type="button" class="button">Comentar</button>
                 </label>
               </div>
             </div>
+            <div class="container">
+              <div class="row">
+                <div class="column large-11 large-offset-1 medium-11 medium-offset-1 small-11 small-offset-1">
+                  <div class="row comentario">
+                    <div class="column large-2">
+                      <img class="icon-user" src="img/user.png" alt="imagen usuario">
+                      <span class="texto">userNname</span>
+                    </div>
+                    <div class="column large-10">
+                      <span class="texto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</span>
+                    </div>
+                  </div>
+                  <div class="row comentario">
+                    <div class="column large-2">
+                      <img class="icon-user" src="img/user.png" alt="imagen usuario">
+                      <span class="texto">userNname</span>
+                    </div>
+                    <div class="column large-10">
+                      <span class="texto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</span>
+                    </div>
+                  </div>
+                  <div class="row comentario">
+                    <div class="column large-2">
+                      <img class="icon-user" src="img/user.png" alt="imagen usuario">
+                      <span class="texto">userNname</span>
+                    </div>
+                    <div class="column large-10">
+                      <span class="texto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
+          <div class="callout articulo">
+            <h2>Pescado al Coco de Samaná</h2>
+            <p>29/07/2019</p>
+            <img class="thumbnail" src="img/pescado.jpg" alt="">
+            <p>Fresco pescado de la Bahia de Samaná con Coco recien cortado en la misma region.</p>
+            <div class="row">
+              <div class="column large-12">
+                <label>
+                  <textarea placeholder="Dejanos tu comentario..."></textarea>
+                  <button type="button" class="button">Comentar</button>
+                </label>
+              </div>
+            </div>
+           <div class="container">
+             <div class="row">
+               <div class="column large-11 large-offset-1 medium-11 medium-offset-1 small-11 small-offset-1">
+                 <div class="row comentario">
+                   <div class="column large-2">
+                     <img class="icon-user" src="img/user.png" alt="imagen usuario">
+                     <span class="texto">userName</span>
+                   </div>
+                   <div class="column large-10">
+                     <span class="texto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</span>
+                   </div>
+                 </div>
+                 <div class="row comentario">
+                   <div class="column large-2">
+                     <img class="icon-user" src="img/user.png" alt="imagen usuario">
+                     <span class="texto">userNname</span>
+                   </div>
+                   <div class="column large-10">
+                     <span class="texto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</span>
+                   </div>
+                 </div>
+                 <div class="row comentario">
+                   <div class="column large-2">
+                     <img class="icon-user" src="img/user.png" alt="imagen usuario">
+                     <span class="texto">userNname</span>
+                   </div>
+                   <div class="column large-10">
+                     <span class="texto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</span>
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
     </div>
 
     <script src="js/vendor/jquery.js"></script>
