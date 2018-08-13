@@ -60,6 +60,13 @@ body{
   width: 45%;
 }
 
+[class^="tag-"]{
+  margin-left: 2px;
+  padding: 5px;
+  background: lightgray;
+  border-radius: 10px;
+}
+
 @media (max-width:600px) {
   .img-logo{
     width: 50%;
@@ -67,9 +74,13 @@ body{
 
   .slogan{
     font-size: 2rem;
+    text-align: center;
   }
 
-  .btn{
-    content: none;
+  .img-logo{
+    position: absolute;
+    top: 150;
+    left:60px;
   }
+
 }
