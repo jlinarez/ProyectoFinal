@@ -1,0 +1,75 @@
+body{
+  background-image: url("../img/fondo3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.cabecera{
+  background-image: url("../img/bg-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.img-logo{
+  width: 20%;
+  margin-top: 15px;
+  margin-left: 20px;
+  padding-top: 0px;
+  position: absolute;
+  top: 160px;
+  left: 5px;
+}
+
+.btn-menu{
+  margin-top: 10px;
+}
+
+.row-slogan{
+  height: 200px;
+  margin: 0px
+}
+
+.slogan{
+  color: white;
+  font-weight: bold;
+  margin: 0px;
+  padding-top: 250px;
+}
+
+.btn{
+  margin-left: 5px;
+}
+
+.galeria{
+  margin-top: 75px;
+}
+
+.social{
+  color: white;
+  margin-top: 10px;
+}
+
+[class^="galeria-"]{
+  width: 100%;
+  margin-top: 10px;
+}
+
+.img-pub{
+  width: 45%;
+}
+
+@media (max-width:600px) {
+  .img-logo{
+    width: 50%;
+  }
+
+  .slogan{
+    font-size: 2rem;
+  }
+
+  .btn{
+    content: none;
+  }
+}
